@@ -38,7 +38,7 @@ export const GenerateInvoice = async (
     await invoice.save();
 
     const logoBase64 = getBase64Image(
-      path.join(__dirname, "../Asset/logo.png")
+      path.join(__dirname, "../Asset/Logo.png")
     );
 
     const htmlTemplate = `
