@@ -1,5 +1,5 @@
 import app from "./app";
-import connectDB from "./Config/mongoConnection";
+import connectDB from "./DBConfig/mongoConnection";
 
 const PORT = process.env.PORT || 5000;
 
